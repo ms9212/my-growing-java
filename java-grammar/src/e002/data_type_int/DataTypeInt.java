@@ -46,5 +46,11 @@ public class DataTypeInt {
         System.out.println(a - b);
         System.out.println(a * b);
         System.out.println(a / b);  // 몫(양수 간)
+
+        // 변수의 수명(중괄호)
+        {
+            int nestedValue = 100;
+        }
+        // 여기서는 nestedValue의 수명이 끝나 있음.
     }
 }
